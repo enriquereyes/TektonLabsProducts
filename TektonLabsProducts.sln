@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TektonLabsProducts.Api", "TektonLabsProducts.Api\TektonLabsProducts.Api.csproj", "{9B412467-3B7F-4830-9728-0F9272DB2008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TektonLabsProducts.Core", "TektonLabsProducts.Core\TektonLabsProducts.Core.csproj", "{87EA4DB5-FB04-402B-82AB-292C285B2BD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TektonLabsProducts.Data", "TektonLabsProducts.Data\TektonLabsProducts.Data.csproj", "{443DDB73-3B2B-4D46-9827-6F01CAEB36C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B412467-3B7F-4830-9728-0F9272DB2008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B412467-3B7F-4830-9728-0F9272DB2008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B412467-3B7F-4830-9728-0F9272DB2008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B412467-3B7F-4830-9728-0F9272DB2008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87EA4DB5-FB04-402B-82AB-292C285B2BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87EA4DB5-FB04-402B-82AB-292C285B2BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87EA4DB5-FB04-402B-82AB-292C285B2BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87EA4DB5-FB04-402B-82AB-292C285B2BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{443DDB73-3B2B-4D46-9827-6F01CAEB36C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{443DDB73-3B2B-4D46-9827-6F01CAEB36C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{443DDB73-3B2B-4D46-9827-6F01CAEB36C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{443DDB73-3B2B-4D46-9827-6F01CAEB36C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
