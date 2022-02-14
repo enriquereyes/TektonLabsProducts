@@ -4,6 +4,10 @@ Clone the repository:
 
     git clone https://github.com/enriquereyes/TektonLabsProducts
 
+## Database
+
+    EFCore migrations currently broken due to top-level statements.
+
 
 
 ```csharp
