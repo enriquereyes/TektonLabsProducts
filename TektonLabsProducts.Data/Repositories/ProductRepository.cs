@@ -26,6 +26,13 @@ namespace TektonLabsProducts.Data.Repositories
                 .SingleOrDefaultAsync(a => a.Id == id);;
         }
 
+        // public async Task<Product> AddAsync(Product product)
+        // {
+        //     await MyProductDbContext.Products
+        //     .AddAsync(product);
+        //     return product;  
+        //}
+
         private MyProductDbContext MyProductDbContext
         {
             get { return _context as MyProductDbContext; }

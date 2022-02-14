@@ -3,6 +3,9 @@ using System.Threading.Tasks;
 using TektonLabsProducts.Core;
 using TektonLabsProducts.Core.Models;
 using TektonLabsProducts.Core.Services;
+using TektonLabsProducts.Core.Repositories;
+using TektonLabsProducts.Data;
+using TektonLabsProducts.Data.Repositories;
 
 namespace TektonLabsProducts.Services
 {
@@ -20,18 +23,6 @@ namespace TektonLabsProducts.Services
                 .AddAsync(newProduct);
             
             return newProduct;
-        }
-
-        public async Task DeleteProduct(Product Product)
-        {
-            _unitOfWork.Products.Remove(Product);
-
-            await _unitOfWork.CommitAsync();
-        }
-
-        public async Task<IEnumerable<Product>> GetAllProducts()
-        {
-            return await _unitOfWork.Products.GetAllAsync();
         }
 
         public async Task<Product> GetProductById(int id)

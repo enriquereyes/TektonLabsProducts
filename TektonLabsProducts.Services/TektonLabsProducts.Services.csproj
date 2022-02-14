@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TektonLabsProducts.Core\TektonLabsProducts.Core.csproj" />
+    <ProjectReference Include="..\TektonLabsProducts.Data\TektonLabsProducts.Data.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
