@@ -21,7 +21,15 @@ namespace TektonLabsProducts.Data.Configurations
                 .IsRequired();
                 
             builder
-                .Property(m => m.InStock)
+                .Property(m => m.LocalStock)
+                .IsRequired();
+
+            builder
+                .Property(m => m.ProviderPrice)
+                .IsRequired();
+                
+            builder
+                .Property(m => m.ProviderStock)
                 .IsRequired();
 
             builder

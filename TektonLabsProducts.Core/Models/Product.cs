@@ -5,6 +5,8 @@ namespace TektonLabsProducts.Core.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public float Price { get; set; }
-        public int InStock { get; set; }    
+        public int LocalStock { get; set; }    
+        public float ProviderPrice { get; set; }
+        public int ProviderStock { get; set; }
     }
 }
