@@ -2,7 +2,7 @@ using System;
 using System.Threading.Tasks;
 using TektonLabsProducts.Core.Repositories;
 
-namespace MyMusic.Core
+namespace TektonLabsProducts.Core
 {
     public interface IUnitOfWork : IDisposable
     {

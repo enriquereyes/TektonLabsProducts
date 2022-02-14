@@ -6,6 +6,6 @@ namespace TektonLabsProducts.Core.Repositories
 {
     public interface IProductRepository : IRepository<Product>
     {
-        Task<Product> GetProductByIdAsync(int id);
+        ValueTask<Product> GetByIdAsync(int id);
     }
 }
