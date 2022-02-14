@@ -1,5 +1,7 @@
 using TektonLabsProducts.Core;
 using TektonLabsProducts.Data;
+using TektonLabsProducts.Core.Services;
+using TektonLabsProducts.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddTransient<IProductService, ProductService>();
 //builder.Services.AddScoped<MyProductDbContext>();
 
 var app = builder.Build();

@@ -15,7 +15,7 @@ namespace TektonLabsProducts.Data
             this._context = context;
         }
 
-        public IProductRepository Product => _ProductRepository = _ProductRepository ?? new ProductRepository(_context);
+        public IProductRepository Products => _ProductRepository = _ProductRepository ?? new ProductRepository(_context);
 
         public async Task<int> CommitAsync()
         {
